@@ -25,9 +25,9 @@ $emailOnCookie = isset($_COOKIE['emailOnCookie']) ? $_COOKIE['emailOnCookie'] : 
             <input type="password" name='pass' placeholder="  Senha" required>
             <i class='bx bxs-lock-alt'></i>
         </div>
-        
+
         <div class="remember-me">
-            <input type="checkbox" name="emailOnCookie" id="emailOnCookie" <?php echo ($emailOnCookie) ? 'checked' : ''; ?>>
+            <input type="checkbox" name="emailOnCookie" id="emailOnCookie" <?php if ($emailOnCookie) echo "checked" ?>>
             <label for="emailOnCookie">Lembrar e-mail</label>
 
         <button type="submit" name='submit' class="btn">Login</button>
