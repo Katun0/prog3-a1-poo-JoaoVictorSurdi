@@ -1,4 +1,4 @@
-<h1>Atividade A1 | Programação Campus Videira</h1>
+<h1>Atividade A1 | Programação 3 UNOESC</h1>
 
 Acadêmico: João Victor Surdi de Melo | Turma: Ciência da Computação 2023 (Campus Videira)
 
