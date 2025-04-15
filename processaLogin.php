@@ -1,8 +1,10 @@
 <?php
+// faz a requisição dos arquivos necessários
 require_once __DIR__ . "/classes/User.php";
 require_once __DIR__ . "/classes/Auth.php";
 require_once __DIR__ . "/classes/Session.php";
 
+// também faz a requisição, mas é melhor de declarar (Também não funciona sem o Autoload da classe)
 use classes\Auth;
 use classes\Session;
 

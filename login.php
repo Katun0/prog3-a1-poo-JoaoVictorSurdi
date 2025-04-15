@@ -14,6 +14,11 @@ $emailOnCookie = isset($_COOKIE['emailOnCookie']) ? $_COOKIE['emailOnCookie'] : 
 </head>
 <body class="centerText">
 <div class="wrapper">
+    <?php if (isset($_POST['error'])): ?>
+        <div class="error-message">
+            <p><?php echo htmlspecialchars($_GET['error']); ?></p>
+        </div>
+    <?php endif; ?>
     <form action="processaLogin.php" method="post">
         <h1>Login</h1>
         <div class="input-box">
